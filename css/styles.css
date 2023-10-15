@@ -184,3 +184,24 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;                      
 }
+/**--------------------------------------------------------------*/
+.perevagi-title {
+ color: #2416C0;
+
+text-align: center;
+font-family: Roboto Mono;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.perevagi-list {
+ display: flex;
+                        flex-wrap: wrap;
+                        column-gap: 24px;
+                        row-gap: 48px;
+
+}
+.peevagi-list-item {
+width: calc((100% - 48px) / 2);
+}
