@@ -4,7 +4,7 @@ title {
 
 body {
                         font-family: "Roboto", sans-serif;
-                        color: #434455;
+                        color: #000;
                         background-color: #ffffff;
 }
 
@@ -37,7 +37,7 @@ img {
 }
 
 :root {
-                        --title-color: #2e2f42;
+                        --title-color:#000;
                         --accent-color: ;
                         --main-text-color: ;
                         --second-text-color: ;
@@ -64,7 +64,7 @@ img {
                         justify-content: center;
                         align-items: center;
                         gap: 20px;
-                        color: #000000;
+                        
 }
 .header-menu-item {
                         transition: 2250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -88,7 +88,7 @@ img {
                         line-height: 1.17;
                         letter-spacing: 0.03em;
                         text-transform: uppercase;
-                        color: #2e2f42;
+                        color: #060047;
 }
 .header-link {
                         color: #2416C0;
@@ -163,4 +163,24 @@ img {
 }
 .poslugi-list-item {
                         width: calc((100% - 48px) / 3);
+}
+.poslugi-title {
+color: #2416C0;
+
+font-family: Roboto Mono;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+
+}
+.poslugi-item {
+  color: #000;
+
+font-family: Noto Serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;                      
 }
