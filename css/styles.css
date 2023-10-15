@@ -1,0 +1,109 @@
+title {
+                        font-family: "Raleway", sans-serif;
+}
+
+body {
+                        font-family: "Roboto", sans-serif;
+                        color: #434455;
+                        background-color: #ffffff;
+}
+
+p,
+h1,
+h1,
+h3,
+h3,
+h5,
+h6 {
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        margin: 0;
+}
+
+a {
+                        text-decoration: none;
+}
+
+ul {
+                        list-style-type: none;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        padding-left: 0;
+
+}
+
+img {
+                        display: block;
+}
+
+:root {
+                        --title-color: #2e2f42;
+                        --accent-color: ;
+                        --main-text-color: ;
+                        --second-text-color: ;
+}
+
+.link {
+                        text-decoration: none;
+}
+
+.list {
+                        list-style: none;
+}
+
+/**------------------------------------------hero---------------------------*/
+.hero {
+                          background-image: 
+                                                                        url(../images/young.jpg);
+                                                max-width: 1440px;
+                                                background-size: cover;
+                                                background-position: center;
+                                                background-repeat: no-repeat;
+                                                margin-right: auto;
+                                                margin-left: auto;
+                                                padding: 191px 0;
+}
+
+
+.hero-title {
+                        font-weight: 400;
+                        font-size: 56px;
+                        line-height: 1.07;
+                        letter-spacing: 0.02em;
+                        max-width: 496px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        letter-spacing: 0.02em;
+                        color: #000;
+                        max-width: 496px;
+                        margin-bottom: 48px;
+
+}
+
+.button-hero {
+                        font-family: "Roboto", sans-serif;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 1.5;
+                        letter-spacing: 0.04em;
+                        
+                        background: #FF5F9E;
+                        cursor: pointer;
+                        display: block;
+                        min-width: 241px;
+                        height: 56px;
+                        border: none;
+                        border-radius: 10px;
+                        margin-left: 615px;
+                        margin-right: 144px;
+
+
+
+
+
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+                        background: #404bbf;
+}
