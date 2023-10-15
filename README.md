@@ -1,0 +1,1 @@
+# trandosja-company
