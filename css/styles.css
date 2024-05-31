@@ -53,7 +53,7 @@ img {
 /**------------------------------------------header---------------------------*/
 .container {
                         width: 100%;
-                        max-width: 1158px;
+                        max-width: 1440px;
                         padding-left: 15px;
                         padding-right: 15px;
                         margin-left: auto;
@@ -105,14 +105,15 @@ img {
 .hero {
                           background-image: 
                                url(../images/young.jpg);
-                        max-width: 1440px;
+                        /* max-width: 1440px;
+                        max-height: 737px; */
                         
                         background-size: cover;
                         background-position: center;
                         background-repeat: no-repeat;
                         margin-right: auto;
                         margin-left: auto;
-                        padding: 191px 0;
+                        padding: 737px, 0px;
 }
 
 
@@ -124,6 +125,11 @@ img {
                         font-style: normal;
                         font-weight: 400;
                         line-height: normal;
+                        padding-top: 576px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding-left: 350px;
+                        padding-right: 214px;
 
 }
 
@@ -215,6 +221,6 @@ width: calc((100% - 48px) / 2);
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
-    padding: 191px 0;
+    padding: 1241px 1440px;
 
 }
