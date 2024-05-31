@@ -126,12 +126,13 @@ img {
                         font-weight: 400;
                         line-height: normal;
                         padding-top: 576px;
-                        margin-left: auto;
+                         margin-left: auto;
                         margin-right: auto;
                         /* padding-left: 350px;
                         padding-right: 214px; */
                         padding-bottom: 14px;
                         max-width: 876px;
+                        text-align: center;
 
 }
 
@@ -181,7 +182,8 @@ font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-
+padding-top: 94px;
+text-align: center;
 
 }
 .poslugi-item {
@@ -191,7 +193,9 @@ font-family: Noto Serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: normal;                      
+line-height: normal;
+text-align: center;
+padding-bottom: 34px;
 }
 /**--------------------------------------------------------------*/
 .perevagi-title {
@@ -207,12 +211,13 @@ line-height: normal;
 .perevagi-list {
  display: flex;
                         flex-wrap: wrap;
-                        column-gap: 24px;
+                        column-gap: 21px;
                         row-gap: 48px;
-
+                        margin-left: auto;
+                        margin-right: auto;
 }
 .peevagi-list-item {
-width: calc((100% - 48px) / 2);
+ width: calc((100% - 48px) /3 );
 }
 
 .konsult {
@@ -225,6 +230,7 @@ width: calc((100% - 48px) / 2);
     margin-right: auto;
     margin-left: auto;
     padding-top:  0px;
+    text-align: center;
 
 }
 .cons-title {
