@@ -105,15 +105,15 @@ img {
 .hero {
                           background-image: 
                                url(../images/young.jpg);
-                        /* max-width: 1440px;
-                        max-height: 737px; */
+                         max-width: 1440px;
+                        max-height: 737px;
                         
                         background-size: cover;
                         background-position: center;
                         background-repeat: no-repeat;
                         margin-right: auto;
                         margin-left: auto;
-                        padding: 737px, 0px;
+                        /* padding: 737px, 0px; */
 }
 
 
@@ -128,8 +128,10 @@ img {
                         padding-top: 576px;
                         margin-left: auto;
                         margin-right: auto;
-                        padding-left: 350px;
-                        padding-right: 214px;
+                        /* padding-left: 350px;
+                        padding-right: 214px; */
+                        padding-bottom: 14px;
+                        max-width: 876px;
 
 }
 
@@ -147,8 +149,9 @@ img {
                         height: 58px;
                         border: none;
                         border-radius: 10px;
-                        margin-left: 1052px;
-                        margin-right: 44px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        
 
 
 
@@ -211,16 +214,47 @@ line-height: normal;
 .peevagi-list-item {
 width: calc((100% - 48px) / 2);
 }
+
+.konsult {
+  background-color: #2E1BFF;
+    max-width: 1440px;
+    max-height: 573px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top:  0px;
+
+}
+.cons-title {
+    color: #FFFFFF;
+    
+      font-family: Roboto Mono;
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-top: 56px;
+    margin-left: auto;
+      margin-right: auto;
+      
+     
+
+}
+
 .tranda-foto {
   background-image:
       url(../images/tranda.jpg);
     max-width: 1440px;
+      max-height: 1241px;
   
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
-    padding: 1241px 1440px;
+    padding-bottom:  1241px;
+    
 
 }
