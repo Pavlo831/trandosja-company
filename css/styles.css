@@ -205,3 +205,16 @@ line-height: normal;
 .peevagi-list-item {
 width: calc((100% - 48px) / 2);
 }
+.tranda-foto {
+  background-image:
+      url(../images/tranda.jpg);
+    max-width: 1440px;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 191px 0;
+
+}
